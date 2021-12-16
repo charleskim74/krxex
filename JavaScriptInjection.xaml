@@ -1,0 +1,130 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="JavaScriptInjection" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="539,740" sap2010:WorkflowViewState.IdRef="JavaScriptInjection_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="56">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="30">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="JavaScriptInjection" sap:VirtualizedContainerService.HintSize="549,675" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Everytime 십일절 - 11번가" sap:VirtualizedContainerService.HintSize="507,583" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="2aba70cb-a43e-47b2-bb37-f3c29dee04c7" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="473,367" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="js_body" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="431,100" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[js_body]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">[File.ReadAllText("11st_javascript.js")]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+            <ui:InjectJsScript ScriptOutput="{x:Null}" DisplayName="Inject Js Script 'INPUT'" sap:VirtualizedContainerService.HintSize="431,134" sap2010:WorkflowViewState.IdRef="InjectJsScript_1" ScriptCode="[js_body]">
+              <ui:InjectJsScript.InputParameter>
+                <InArgument x:TypeArguments="x:String">
+                  <Literal x:TypeArguments="x:String" Value="" />
+                </InArgument>
+              </ui:InjectJsScript.InputParameter>
+              <ui:InjectJsScript.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e0a6dac5-233e-4b4c-9aa8-38fd0c8e05d3" InformativeScreenshot="b06f7266bbe7eb18cec6b40cce4831f1" Selector="&lt;webctrl aaname='나의 11번가' parentid='gnb' tag='A' /&gt;">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:InjectJsScript.Target>
+            </ui:InjectJsScript>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1056" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMnSURBVFhHxZfvS1NRGMdnREREMSIiCguJMKLClOWPabr56+oKEVFEh2RYWIRYhBXU/oxe928UvQvtTQwkSAgSIQzRUeJ2zt3u7r4+5273eu92t3vXZHvx3YuHe8/nc895zuDxAKjTE28KeCkRSpTCKagot3sQb+lGwtfFE63+aKK9PcL8rV4z0xCgFyRKzLJAJTmAg+AgOAgO1uWLse4WySJALwi4almgkhSHg+DggWaV9zZpEh56QWx7Nb5ch4Pg4P23YnzwhlcIiDO3X6zcuIeD4JCHrkeEgGg4+wXLSflwyKFrUSFwmN1eDhzy/UYuBOwXdZv/hyM5chWVCVQIT45eKSHQJiHeESqs+/oR91PdDA8MIDEwADbYBzYUBAsFwIf8jvDkWEMRgeEp8D9/weNpa73zHtjqT/CEaoL3gzMVnMOanT3wubGS8NTEZRsBAfn+y1jIqNOOsK+rRt3Y9mBQE9LrlvzegjwrFYWnJusLBdinZcsiWr25F+zziqVe8sxnQrSD29ln1zcgT7fbwlNTFwsFxEvmL9XqtCucZcDefzDqjg03P0LHsJt9fu0HktNNBXAlfKFIDwigWcDUcHrdVbc/Hwf/x7Tn5W/LSIUbLXBl5rwLgbyrZgi4vGry2zD4XiorsfKRJC4ZcOXBORcCeffcEHB5z+V3dKNMAspMvQFPPzzrLGCGi23X627gyaVR8N3cEUS/QJltsMDTc2eKCHRRF+sCed1uCDjBFyXwWLYJ5bVVKI8aC+Dpx14bAXHmd4cPBPK7XRcY7QQf64A83gZ54g7kSR+SUy1Ihpuz8K2d7HMb61Ce3LSFp+dP5wnoDddDC+RABd2uC7jJ5iaUBV9RuPr0lEnA3O09fdrfsGiegm7PNZRjtmNIvQqWhKvPTuYE8q6a45+M3Znb/Mk4wdWFEyRQQ3hm8TgJ1BCeeXEMHoKLoaEm8MzLo9xDcDGx1AIOLB2JegguxqVawIHXdREPwb0EF+NSteExvPF4tdGM4BLBxbhULbhK8OxoJn5ECC4RXIxL1fhy63BqSNCsRvAIwaME54cI56LhxJmLbT9gom4fr39TbI5QlV4AAAAASUVORK5CYII=" InformativeScreenshot="a7e8e0c00012a32d14a9b2e7a2023c57.png" Selector="&lt;html app='chrome.exe' htmlwindowname='trCtgrNo' title='Everytime 십일절 - 11번가'/&gt;" Url="https://11st.co.kr/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
